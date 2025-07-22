@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Chewy&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDoList</title>
+</head>
+<body>
+    <h1 class = "header"> To Do List </h1>
+
+<label class="switch">
+  <input type="checkbox" id="toggleDark">
+  <span class="slider round"></span>
+</label>
+
+
+    <div id="calendar">
+    <input type="date" id="taskDate">
+    </div>
+
+    <div id="taskform">
+        <input type="text" id="taskInput" placeholder="Enter task"> 
+        <button id="addTaskBtn" type=""button>Add task</button>
+    </div>
+
+    <div class="task-container">
+        <ul id="taskList"></ul>
+    </div>
+
+
+
+<footer> © Copyrights jungleMonkey 2025</footer>
+
+
+    <script src="script.js"></script>
+
+
+</body>
+</html>
